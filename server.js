@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
-  res.send("✅ POC24 Node application is running");
+  res.send("✅ POC24 Node app is running");
 });
 
 app.get("/health", (req, res) => {
